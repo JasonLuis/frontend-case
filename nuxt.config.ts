@@ -1,4 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  ssr: false,
+  srcDir: 'src/',
+  dir: {
+    pages: 'pages',
+    assets: 'core/assets',
+    layouts: 'core/layouts',
+    public: 'core/public',
+    middleware: 'core/middleware'
+  },
+  components: {
+    dirs: ['core/components']
+  },
+  vite: {
+    plugins: []
+  }
 })
