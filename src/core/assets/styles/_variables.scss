@@ -1,0 +1,57 @@
+
+$primary:            #a8bfc9;
+    
+$light-blue:         #31c3bd;
+$light-blue-hover:   #65e9e4;
+
+$light-yellow:       #f2b137;
+$light-yellow-hover: #ffc860;
+
+$dark-navy:          #1a2a33;
+$semi-dark-navy:     #1f3641;
+
+$silver:             #a8bfc9;
+$silver-hover:       #dbe8ed;
+
+$text-soft-400:      #868c98;
+$text-sub-500:       #525866;
+$stroke-soft-200:    #E2E4E9;
+$bg-weak-100:        #F6F8FA;
+
+// Class
+
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: Inter;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+  
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');

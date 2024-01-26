@@ -12,8 +12,18 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.10",
+    "@storybook/addon-interactions": "^7.6.10",
+    "@storybook/addon-links": "^7.6.10",
+    "@storybook/blocks": "^7.6.10",
+    "@storybook/test": "^7.6.10",
+    "@storybook/vue3": "^7.6.10",
+    "@storybook/vue3-vite": "^7.6.10",
     "nuxt": "^3.9.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "sass": "^1.70.0",
+    "storybook": "^7.6.10",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
   }

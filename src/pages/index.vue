@@ -1,13 +1,12 @@
 <template>
     <div class="teste">
-
+      <UiSideBAr />
     </div>
 </template>
 
-<style lang="scss">
+<script setup lang="ts">
+import UiSideBAr from '@/core/components/SideBar/SideBar.vue';
+</script>
 
-* {
-  padding: 0px;
-  margin: 0;
-}
+<style lang="scss">
 </style>
