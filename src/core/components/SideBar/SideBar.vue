@@ -43,9 +43,9 @@
       </ul>
     </div>
 
-    <div class="hr"></div>
+    <div class="hr mt-18"></div>
 
-    <div class="">
+    <div class="mt-18">
       <UiBoxPerfil name="Sophia Williams" email="sophia@jurisoft.com" img="../../assets/icon/Avatar.svg" />
     </div>
   </div>
