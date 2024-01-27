@@ -1,8 +1,8 @@
-import UiSettingHelper from "./SettingHelper.vue";
+import UiItemList from "./ItemList.vue";
 
 export default {
-  title: "Ui/SettingHelper",
-  component: UiSettingHelper,
+  title: "Ui/ItemList",
+  component: UiItemList,
   argTypes: {
     icon: {
       control: { type: "text" },
@@ -10,26 +10,29 @@ export default {
     title: {
       control: { type: "text" },
     },
+    timer: {
+      control: { type: "text" },
+    },
   },
 };
 
 const Template = (args: any, { argTypes }: any) => ({
   props: Object.keys(argTypes),
-  components: { UiSettingHelper },
+  components: { UiItemList },
   setup() {
     return { args };
   },
   data() {
     return {};
   },
-  template: '<ui-setting-helper v-bind="args">',
+  template: '<ui-item-list v-bind="args">',
 });
 
 export const Default: any = Template.bind({});
 
 Default.args = {
-  title: 'Configurações',
-  icon: '../../assets/icon/settings-2-line.svg'
+  icon: '../../assets/icon/Loom.svg',
+  title: 'Loom Rebranding',
+  timer: '1:23:05',
 };
-
-Default.parameters = {}; 
+Default.parameters = {};

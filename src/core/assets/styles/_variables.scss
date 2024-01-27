@@ -25,57 +25,5 @@ $stroke-soft-200: #E2E4E9;
 
 $primary-base: #FF4A00;
 
-// Class
-
-* {
-    padding: 0px;
-    margin: 0;
-    font-family: Inter;
-}
-
-.ml-8 {
-    margin-left: 8px;
-}
-
-.ml-12 {
-    margin-left: 12px;
-}
-
-.mt-18 {
-    margin-top: 18px;
-}
-
-.mt-20 {
-    margin-top: 20px;
-}
-
-.mb-12 {
-    margin-bottom: 12px;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.justify-around {
-    justify-content: space-around;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$box-shadow-color: rgba(228, 229, 231, 0.24);
+$box-shadow-color-2: rgba(82, 88, 102, 0.06);

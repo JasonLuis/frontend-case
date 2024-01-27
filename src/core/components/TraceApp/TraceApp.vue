@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-let chronometer;
+let chronometer:any;
 const second = ref<number>(0);
 const minute = ref<number>(0);
 const hour = ref<number>(0);

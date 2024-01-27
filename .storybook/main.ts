@@ -12,9 +12,7 @@ const config = {
   framework: {
     name: "@storybook/vue3-vite",
     options: {
-      builder: {
-        // viteConfigPath: './nuxt.config.ts'
-      },
+      builder: {},
     },
   },
   docs: {
@@ -25,7 +23,7 @@ const config = {
       css: {
         preprocessorOptions: {
           scss: {
-            additionalData: '@import "../src/core/assets/styles/_variables.scss";',
+            additionalData: '@import "../src/core/assets/styles/_global.scss";',
           },
         },
       },
