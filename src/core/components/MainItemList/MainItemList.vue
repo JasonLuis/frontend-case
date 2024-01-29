@@ -1,11 +1,7 @@
 <template>
   <div class="menu-item" :class="props.isSelect ? 'menu-background' : ''">
     <div class="item-details">
-      <img
-        class="menu-icon-item"
-        :src="getIcon"
-        alt=""
-      />
+      <img class="menu-icon-item" :src="getIcon" alt="" />
       <p>{{ props.title }}</p>
     </div>
     <img src="../../assets/icon/arrow-left.svg" alt="" v-if="props.isSelect" />
@@ -13,19 +9,15 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed } from "vue";
 
-const props = withDefaults(
-  defineProps<{
-    icon: string;
-    title: string;
-    isSelect: boolean;
-  }>(),
-  {}
-);
-
+const props = defineProps<{
+  icon: string;
+  title: string;
+  isSelect: boolean;
+}>();
 const getIcon = computed(() => {
-  return new URL(props.icon, import.meta.url).href
+  return new URL(props.icon, import.meta.url).href;
 });
 </script>
 

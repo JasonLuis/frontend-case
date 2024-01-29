@@ -22,7 +22,7 @@ const Template = (args: any, { argTypes }: any) => ({
   data() {
     return {};
   },
-  template: '<ui-setting-helper v-bind="args">',
+  template: '<ui-setting-helper v-bind="args" />',
 });
 
 export const Default: any = Template.bind({});
